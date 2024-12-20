@@ -1,0 +1,53 @@
+/* SpeechToText Component Styles */
+.speech-to-text-container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .speech-to-text-container h1 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .speech-to-text-container select {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .speech-to-text-container button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .speech-to-text-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .speech-to-text-container p {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .speech-to-text-container .original-text,
+  .speech-to-text-container .translated-text {
+    padding: 10px;
+    background-color: #eef;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  

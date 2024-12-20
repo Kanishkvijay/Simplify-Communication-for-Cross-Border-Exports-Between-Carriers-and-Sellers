@@ -1,0 +1,171 @@
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: navy; 
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .navbar-title {
+    margin: 0;
+  }
+  
+  /* Container */
+  .contains {
+    display: flex;
+   
+    flex: 1;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem;
+    width: 200px;
+    margin-left:none;
+    transition: width 0.1s ease;
+   
+  }
+  
+  .sidebar.closed {
+    width: 120px;
+    overflow: hidden;
+  
+  }
+  
+  .sidebar .toggle-btn {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: left;
+    text-align: center;
+  }
+  
+  .sidebar .toggle-btn:hover {
+    background-color: #2c3e50;
+    /* width:250px; */
+  }
+  
+  .sidebar-links {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+  
+  .sidebar-links a {
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 0; /* Add spacing between links */
+    color: #f8f4f4; /* Change text color if needed */
+    font-size: 16px; /* Adjust font size */
+  }
+
+  #app4{
+    background-image: url('https://ratracosolutions.com/wp-content/uploads/2020/12/chinh-sach-chung-cua-viet-nam-trong-hoat-dong-logistics.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #0d0a3f;
+    
+  }
+  
+  .sidebar-links a:hover {
+    color: #007BFF; /* Optional: Add hover effect */
+    text-decoration: underline; /* Optional: Add underline on hover */
+  }
+  
+  
+  .sidebar-links li {
+    margin: 1rem 0;
+    cursor: pointer;
+  
+  }
+  
+  .sidebar-links li:hover {
+    text-decoration: underline;
+   
+  }
+  
+  /* Main Content */
+  .content {
+    flex: 1;
+    padding: 40px;
+    
+    margin-bottom: 300px;
+    width:250px;
+    
+  }
+
+/* Message form container */
+.message-form {
+  display: flex;
+  flex-direction: row;
+  gap: 15px; /* Space between elements */
+  width: 700px;
+  margin: 20px auto; /* Center the form */
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for input fields and select */
+.input-field {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width:1000px;
+  box-sizing: border-box; /* Ensures padding is included in width */
+  margin-bottom: 10px; /* Space between elements */
+}
+
+/* Focus effect for input fields */
+.input-field:focus {
+  border-color: #4CAF50;
+  outline: none;
+}
+
+/* Button styling */
+.send-button {
+  padding: 12px;
+  font-size: 16px;
+  background-color: #3e3ea2; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  width: 200px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;/* Make the button the same width as the inputs */
+}
+
+/* Button hover effect */
+.send-button:hover {
+  background-color: #070e62;
+  transform: scale(1.05);
+}
+
+/* Button active effect */
+.send-button:active {
+  transform: scale(0.98);
+}
+
+  

@@ -1,0 +1,71 @@
+/* General styles for the page */
+.container-fluid {
+    padding: 0;
+  }
+  
+  #headcont {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+  }
+  
+  #head1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  #mainbg {
+    background-color: #f8f9fa;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  /* Speech to Text styles */
+  .speech-to-text-container {
+    margin: 20px 0;
+  }
+  
+  .speech-to-text-container select,
+  .speech-to-text-container button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }
+  
+  .speech-to-text-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .speech-to-text-container button:hover {
+    background-color: #218838;
+  }
+  
+  .speech-to-text-container p {
+    font-size: 18px;
+    color: #333;
+    background-color: #eef;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Input box and mic button */
+  .ask-input {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #mic-btn {
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  

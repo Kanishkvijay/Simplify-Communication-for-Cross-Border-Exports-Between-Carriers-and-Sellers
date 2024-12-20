@@ -1,0 +1,215 @@
+#brandname {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #dba239;
+    font-size: 5vw;
+  }
+  #brandname p {
+    color: #673147;
+  }
+  #regside {
+    margin-top: 20px;
+    width: 500px;
+    border-style: solid;
+    padding: 25px 0px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: #dcdcdc;
+  }
+  #regside p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #673147;
+  }
+  #regside a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+  #regside a:hover {
+    color: blue;
+  }
+  #loginname {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #673147;
+    font-size: 30px;
+  }
+  #form {
+    padding: 37.5px 0;
+    background-image: url("Images/img1.jpg");
+  }
+  #nameinput {
+    margin-top: 40px;
+  }
+  #nameinput label {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 14px;
+    font-size: 25px;
+    color: #673147;
+  }
+  #nameinput input {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: none;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dba239;
+  }
+  #emailinput {
+    margin-top: 20px;
+  }
+  #emailinput label {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 10px;
+    font-size: 25px;
+    color: #673147;
+  }
+  #emailinput input {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: none;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dba239;
+  }
+  #passinput {
+    margin-top: 20px;
+  }
+  #passinput label {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 12px;
+    font-size: 25px;
+    color: #673147;
+  }
+  #passinput input {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border-style: none;
+    width: 350px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #dba239;
+  }
+  #fp {
+    margin-top: 20px;
+  }
+  #fp a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    text-decoration: underline;
+  }
+  #fp a:hover {
+    color: blue;
+  }
+  #formborder {
+    border-style: solid;
+    width: 500px;
+    padding: 50px 0px;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+    background-color: #dcdcdc;
+  }
+  #footername {
+    background-color: #dba239;
+  }
+  #footername a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration: none;
+    color: #673147;
+    text-decoration: none;
+  }
+  #footername p {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #673147;
+  }
+  
+  @media (min-width: 319px) and (max-width: 575px) {
+    #form {
+      background-image: url("Images/fixbg.jpg");
+    }
+    #formborder {
+      width: 300px;
+    }
+    #nameinput input {
+      width: 200px;
+    }
+    #passinput input {
+      width: 200px;
+    }
+    #emailinput input {
+      width: 200px;
+    }
+    #regside {
+      width: 300px;
+      border-style: solid;
+      padding: 25px 0px;
+      border-width: 1px;
+      border-color: white;
+      border-radius: 20px;
+      background-color: #dcdcdc;
+    }
+    #regside a {
+      color: black;
+    }
+    #regside p {
+      color: #673147;
+    }
+  }
+  @media (min-width: 576px) and (max-width: 900px) {
+  }
+  
+  #sub {
+    margin-top: 20px;
+  }
+  #sub a {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    border-style: solid;
+    padding: 5px 15px;
+    border-radius: 100px;
+    background-color: #dba239;
+    color: #673147;
+    text-decoration: none;
+    border-width: 1px;
+    border-color: #dba239;
+  }
+  #sub a:hover {
+    background-color: white;
+    color: #673147;
+    border-color: #673147;
+  }
+  
